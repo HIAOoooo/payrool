@@ -79,7 +79,7 @@ ChgEmp EmpId salaried salary	更改薪水
 ChgEmp EmpId commissioned salary rate	更改酬金
 ChgEmp EmpId hold	持有支票
 ChgEmp EmpId direct “bank” “account”	直接存款
-ChgEmp EmpId mail “address”	邮寄支p
+ChgEmp EmpId mail “address”	邮寄支票
 异常情况：操作错误。
 如果描述操作的结构不正确，或者EmpId没有引用到真正的雇员，那么打印一条错误信息，不进行进一步的处理。
 
