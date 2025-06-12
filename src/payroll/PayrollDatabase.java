@@ -15,4 +15,8 @@ public class PayrollDatabase {
         employees.put(e.getEmpId(),e);
     }
 
+    public static void deleteEmployee(int empId) {
+        employees.remove(empId);
+    }
+
 }
