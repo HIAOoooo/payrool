@@ -1,9 +1,16 @@
-package payroll;
+package payroll.test.java.payall;
 
 import static org.junit.Assert.assertNull;
 import static org.junit.Assert.assertThrows;
 
 import org.junit.Test;
+
+import payroll.Employee;
+import payroll.NoSuchEmployeeException;
+import payroll.PayrollDatabase;
+import payroll.Transaction;
+import payroll.exception.trans.AddHourlyEmployeeTransaction;
+import payroll.exception.trans.DeleteEmployeeTransaction;
 
 public class DeleteEmployeeTests {
 

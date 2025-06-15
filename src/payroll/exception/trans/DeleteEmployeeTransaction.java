@@ -1,4 +1,9 @@
-package payroll;
+package payroll.exception.trans;
+
+import payroll.Employee;
+import payroll.NoSuchEmployeeException;
+import payroll.PayrollDatabase;
+import payroll.Transaction;
 
 public class DeleteEmployeeTransaction implements Transaction {
 

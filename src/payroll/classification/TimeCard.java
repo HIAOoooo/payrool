@@ -1,4 +1,4 @@
-package payroll;
+package payroll.classification;
 
 public class TimeCard {
 

@@ -1,4 +1,7 @@
-package payroll;
+package payroll.exception.trans;
+
+import payroll.PaymentClassification;
+import payroll.classification.CommissionedClassification;
 
 public class AddCommissionedEmployeeTransaction extends AddEmployeeTransaction {
 

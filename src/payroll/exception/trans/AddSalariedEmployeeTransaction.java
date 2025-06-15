@@ -1,4 +1,7 @@
-package payroll;
+package payroll.exception.trans;
+
+import payroll.PaymentClassification;
+import payroll.classification.SalariedClassification;
 
 public class AddSalariedEmployeeTransaction extends AddEmployeeTransaction {
 
@@ -11,7 +14,7 @@ public class AddSalariedEmployeeTransaction extends AddEmployeeTransaction {
 
     @Override
     protected PaymentClassification getPaymentClassification() {
-        return new SalariedClassification(salary);
+        return new SalariedClassification(salary, salary);
     }
 
 }
